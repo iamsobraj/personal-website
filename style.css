@@ -68,23 +68,36 @@ p{
     font-size:20px;
     background-image: linear-gradient(45deg, darkblue, lightblue);
 }
+
 .link-button2{
-    text-decoration:none;
+    text-decoration: none;
     color:white;
-    font-weight: 900px;
-    background-image: linear-gradient(45deg, lightblue, darkblue);
-    padding: 30px 25px;
-    border-radius: 5px;
-    font-size: 20px;
-    
+    font-size: 15px;
+
+}
+.link-button3{
+    background-image: linear-gradient(45deg, darkblue, lightblue);
+    width: 400px;
+    padding: 20px;
+    border-radius: 3px;
+    margin-left: 600px;
 }
 .link-button2:hover{
-        color:orange;
-        font-size:25px;
-        background-image: linear-gradient(45deg, darkblue, lightblue);
-    }
+    color:orange;
+    font-size: 25px ;
 }
+.link-button3:hover{
+    background-image: linear-gradient(45deg, lightblue, darkblue);
+    width: 500px ;
+    cursor: pointer;
+    color:orange;
+    font-size: 25px ;
+    
 
+}
+.email{
+    font-size: 25px;
+}
 .biography-section{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
